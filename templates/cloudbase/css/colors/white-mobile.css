@@ -1,0 +1,21 @@
+a, table.tablelist td a{
+	color: #848484;
+}
+a:hover, table.tablelist td a:hover{
+	color: #0b0b0b;
+}
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus{
+	background: #848484;
+}
+.column h1, .column h4, .column h6, .column .contentheading, .column .contentheading,
+div.blog .contentheading{
+	color: #52b0df;
+}
+.button, a.readon, #ja-search .button{
+	background: url(../../images/blue/blueButton.png) left top repeat-x #30abe8;
+	border: 1px solid #52adc5;
+	text-shadow: 0px 1px 0px #2f8dbb;
+}
+ul.level0 li.active {
+	background:url(../../images/white/menuitemActive_white.png) no-repeat scroll center top #006699;
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5.9" type="template">
+	<name>Wo:Novo</name>
+	<version>1.0</version>
+	<creationDate>03.2010</creationDate>
+	<author>Wolf Schleevoigt</author>
+	<authorEmail>kontakt@wolfshand.de</authorEmail>
+	<authorUrl>http://www.wolfshand.de</authorUrl>
+	<license>
+	<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+	</license>
+	<description>
+	<![CDATA[
+<h1 style="padding:10px; color:#000">Wo:Multi</h1>
+<img src="../templates/wonovo/template_thumbnail.png" align="left" hspace="10" style="padding:10px;" />
+
+<p>Template von <a href="http://www.wolfshand.de" target="_blank">www.wolfshand.de</a> im einfachen Business-Stil.</p>
+<table border="0" width="100%">
+<tr><th><h2 style="padding:5px 5px 5px 0; color:#000;">Lizenz</h2></th><th><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank">
+	Creative Commons Attribution-Share Alike 3.0 Unported License</a></th></tr>
+<tr><td>Sie d&uuml;rfen das Template vervielf&auml;ltigen, verbreiten, &ouml;ffentlich zug&auml;nglich machen und Abwandlungen und Bearbeitungen des Templates anfertigen, solange mein Backlink nicht entfernt wird.Bitte respektieren Sie dies, denn die Erstellung eines Templates kostet viel Zeit und Arbeit.Wenn Sie das Template dennoch ohne einen Verweis auf meine Seite nutzen wollen, so bitte ich Sie darum meine <a href="http://www.wolfshand.de" target="_blank">Seite</a> zu unterst&uuml;tzen.</td></tr>
+</table>
+
+<table border="0" width="100%">
+<tr><th><h2 style="padding:5px 5px 5px 0; color:#000">Eigenschaften</h2></th></tr>
+<tr><td>Einfaches schnell ladendes Template</td></tr>
+<tr><td>SUCKERFISH! MENU</td></tr>
+</table>
+
+<table border="0" width="100%">
+<tr><td><h2 style="padding:5px 5px 5px 0; color:#000">Positionen</h2></td></tr>
+<tr><th>Modulposition</th><th>Beschreibung</th></tr>
+<tr><td>breadcrumb:</td><td>Modulpostion f&uuml;r den Navigationspfad</td></tr>
+<tr><td>left:</td><td>Modulposition auf der linken Seite</td></tr>
+<tr><td>right:</td><td>Modulposition auf der rechten Seite</td></tr>
+<tr><td>banner:</td><td>Modulposition f&uuml;r einen Werbebanner (468px * 60px)</td></tr>
+<tr><td>user1:</td><td>Modulposition unter dem Inhalt</td></tr>
+<tr><td>user2:</td><td>Modulposition unter dem Inhalt</td></tr>
+<tr><td>user3:</td><td>Modulposition f&uuml;r ein Men&uuml; oben (als Single Level Dropdown nutzbar)</td></tr>
+<tr><td>user4:</td><td>Modulposition f&uuml;r die Suche</td></tr>
+<tr><td>user5:</td><td>Modulposition f&uuml;r einen Newsflash</td></tr>
+<tr><td>user6:</td><td>Modulposition unter dem Inhalt</td></tr>
+<tr><td>footer:</td><td>Modulposition Footer</td></tr>
+ 
+</table>
+
+<p>&copy; <a href="http://www.wolfshand.de" target="_blank">www.wolfshand.de</a></p>
+
+
+	
+
+	
+	]]>  
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>head_includes.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>css/template.css</filename>
+		<filename>js/suckerfish.js</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>images/logo.jpg</filename>
+		<filename>images/search.jpg</filename>
+		<filename>images/eyecatcher.jpg</filename>
+	</files>
+
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>banner</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>footer</position>
+	</positions>
+	
+	<params>
+		<param name="template_width" type="text" default="90%" label="template width" description="template width in px or %"></param>
+		<param name="logo_image" type="text" default="templates/wonovo/images/logo.jpg" label="logo image" description="logo image"></param>
+		<param name="logo_width" type="text" default="180px" label="logo width" description="logo width in px"></param>
+		<param name="logo_height" type="text" default="120px" label="logo height" description="logo height in px"></param>
+	</params>
+
+</install>

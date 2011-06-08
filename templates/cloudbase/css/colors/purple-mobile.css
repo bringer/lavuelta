@@ -1,0 +1,25 @@
+a, table.tablelist td a{
+	color: #b54690;
+}
+a:hover, table.tablelist td a:hover{
+	color: #913572;
+}
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus{
+	background: #b54690;
+}
+.column h1, .column h4, .column h6, .column .contentheading, .column .contentheading,
+div.blog .contentheading{
+	color: #a24682;
+}
+.button, a.readon, #ja-search .button{
+	background: url(../../images/purple/purpleButton.png) left top repeat-x #a3678f;
+	border: 1px solid #a56a91;
+	text-shadow: 0px 1px 0px #865977;
+}
+ul.level0 li.active {
+	background:url(../../images/purple/menuitemActive_purple.png) no-repeat scroll center top #5C3852;
+}
+.counter span{
+	background: url("../../images/purple/purpleCounter.png") no-repeat scroll right bottom transparent;
+	border-color: #ad5596;
+}

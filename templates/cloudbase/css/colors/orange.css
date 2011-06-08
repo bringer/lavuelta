@@ -1,0 +1,63 @@
+body#bd{
+	background: url(../../images/orange/background.jpg) center top no-repeat #fcc568;
+}
+a, table.tablelist td a{
+	color: #cf8123;
+}
+a:hover, table.tablelist td a:hover{
+	color: #ac6816;
+}
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus{
+	background: #cf8123;
+}
+.column h1, .column h4, .column h6, .column .contentheading, .column .contentheading,
+div.blog .contentheading{
+	color: #f4a23c;
+}
+#ja-container .main{
+	background-image: url(../../images/containerBgDark.png);
+}
+div#usertoolWrapper{
+	background-image: url(../../images/fontSizeSeparatorDark.png);
+}
+.ja-navhelper a{
+	color: #000;
+	border: 1px solid transparent;
+}
+.ja-navhelper a:hover, .ja-navhelper a:active, .ja-navhelper a:focus, .ja-links li.top a:hover  { 
+	color: #000; 
+	text-decoration: none; 
+	background-color: #fff;
+	border: 1px solid #000;
+}
+#ja-search {
+	background: url(../../images/icon-search.png) no-repeat center left;
+}
+.button, a.readon, #ja-search .button{
+	background: url(../../images/orange/orangeButton.png) left top repeat-x #30abe8;
+	border: 1px solid #52adc5;
+	text-shadow: 0px 1px 0px #2f8dbb;
+}
+#ja-main .inner, .column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module, #ja-topsl .ja-moduletable, #ja-botsl .ja-moduletable{
+	border: 1px solid #e5a225;
+}
+ul.level0 li.active {
+	background:url(../../images/orange/menuitemActive_orange.png) no-repeat scroll center top #794B19;
+}
+.counter span{
+	background:url("../../images/orange/orangeCounter.png") no-repeat scroll right bottom transparent;
+	border-color:#dd8825;
+}
+#ja-splitmenu a:hover, #ja-splitmenu a:active, #ja-splitmenu a:focus, #ja-cssmenu li:hover, #ja-cssmenu li.sfhover, #ja-cssmenu li.havechildsfhover, #ja-cssmenu li.havechild-activesfhover, #jasdl-mainnav a:hover, #jasdl-mainnav ul li.hover a{
+	background-color: #ac6816;
+}
+#ja-splitmenu li.active a, #ja-splitmenu li.active a:hover, #ja-splitmenu li.active a:active, #ja-splitmenu li.active a:focus, #ja-cssmenu li a.active, #ja-cssmenu li a.active:hover, #ja-cssmenu li a.active:active, #ja-cssmenu li a.active:focus,#jasdl-mainnav li.active a, #jasdl-mainnav li.active a:hover, #jasdl-mainnav li.active a:active, #jasdl-mainnav li.active a:focus{
+	background-color: #e69a3f;
+}
+div.logo-text h1 a{
+	color: #fff1d5;
+}
+p.site-slogan{
+	background: #ffc145;
+	color: #ffffff;
+}

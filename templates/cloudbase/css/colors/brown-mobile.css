@@ -1,0 +1,25 @@
+a, table.tablelist td a{
+	color: #7e7142;
+}
+a:hover, table.tablelist td a:hover{
+	color: #6b4d32;
+}
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus{
+	background: #7e7142;
+}
+.column h1, .column h4, .column h6, .column .contentheading, .column .contentheading,
+div.blog .contentheading{
+	color: #948861;
+}
+.button, a.readon, #ja-search .button{
+	background: url(../../images/brown/brownButton.png) left top repeat-x #a89b69;
+	border: 1px solid #A99C6A;
+	text-shadow: 0px 1px 0px #8a815f;
+}
+ul.level0 li.active {
+	background:url(../../images/brown/menuitemActive_brown.png) no-repeat scroll center top #4A402D;
+}
+.counter span{
+	background: url("../../images/brown/brownCounter.png") no-repeat scroll right bottom transparent;
+	border-color: #ae907b; 
+}

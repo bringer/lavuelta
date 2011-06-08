@@ -1,0 +1,121 @@
+/*
+Theme Name: Wo:Novo
+Theme URL: http://www.wolfshand.de
+Description: Joomla Template
+Version: 1.0
+Author: Wolf Schleevoigt
+Author URL: http://www.wolfshand.de
+*/
+/* --------------------------------------------------
+GENERAL
+-------------------------------------------------- */
+*, html, img {padding:0;margin:0;border:none;}
+body {background:#FFF;color:#333;font-family:Arial, Verdana, Tahoma, Arial, Helvetica, sans-serif;font-size: 12px;}
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.clearleft {clear:left;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+.clearright {clear:right;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+a:link, a:visited {text-decoration: none;font-weight:bold;color:#f29900;}
+a:hover {text-decoration:underline;}
+a:focus { outline: none;}
+ul {padding:0 0 0 16px;}
+#copyright {clear:both;margin:4px 0 0 0;border-top:1px solid #333;padding:4px 0 0 0;text-align:center;}
+#copyright a {color:#006699;text-decoration:none;}
+#wrapper {margin:0 auto;}
+#container_out {}
+#container {margin:0 auto;width:}
+#top_out {padding:0 32px;}
+#top {}
+#logo_out {float:left;}
+#logo {}
+#banner_out {float:right;}
+#banner {width:468px;height:60px;}
+#topbar_out {height:32px;background:#666666;}
+#topbar {}
+#user3_out {float:left;font-size:12px;}
+#user3 {}
+#user3 h3 {display:none;}
+/* --------------------------------------------------
+Suckerfish
+-------------------------------------------------- */
+#user3, #user3 ul {padding: 0;margin: 0;list-style: none;z-index:1000;}
+#user3 a {display: block;height:32px;padding:0 20px;color:#FFF;line-height:32px;}
+#user3 a:hover {background:#333;}
+#user3 li ul a {width:200px;padding:0;}
+#user3 li {float: left;display:block;}
+#user3 li ul {position: absolute;width: 200px;left: -999em;width:208px;background:#666;filter: alpha (opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+#user3 ul li ul li a {padding:0 4px;}
+#user3 li:hover ul {left: auto;}
+#user3 li:hover ul, #user3 li.sfhover ul {left: auto;}
+#user4_out {float:right;height:32px;line-height:32px;width:256px;background:url('../images/search.jpg') no-repeat right #f29900 ;border-left:2px solid #FFF;}
+#user4 {}
+#user4 h3 {display:none;}
+#user4 .inputbox {height:16px;width:164px;margin:4px;padding:4px;border:none;background:#FFF;}
+#eyecatcher_out {background:url('../images/eyecatcher.jpg') ;padding-bottom:10px;border-top:6px solid #CCC;}
+#eyecatcher {border-bottom:2px solid #FFF;padding:32px;}
+#user5_out {background: #FFF;filter: alpha (opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;font-size: 10px;color: #000;width:256px;}
+#user5{padding:4px;}
+#maincontent_out {padding:0 32px;}
+#maincontent {}
+#pathwaywrapper {border-bottom:1px solid #E2E2E2;margin:4px 0;}
+#pathwaytext_out {float:left;}
+#pathwaytext {padding:4px;}
+#pathway_out {float:left;}
+#pathway {padding:4px;}
+#pathway h3 {display:none;}
+#left_out {width:256px;float:left;border-right:1px solid #E2E2E2;}
+#left {padding:12px;}
+#left h3 {font-size: 16px;color: #f29900;margin:4px 0;}
+#left ul, #left li
+{list-style-type:none;}
+#left ul li a
+{font-weight:normal;color:#333;}
+#left ul li a:hover
+{font-weight:bold;text-decoration:none;}
+#right_out {width:256px;float:right;background:#f29900;color:#FFF;}
+#right {padding:12px;}
+#right h3
+{color: #FFF;font-size: 16px;margin:4px 0;}
+#right ul, #right li
+{list-style-type:none;}
+#right a, #right ul li a
+{ color:#FFF;font-weight:normal;}
+#right a, #right ul li a:hover
+{font-weight:bold;text-decoration:none;}
+#middle_outmiddle {margin:0 256px;}
+#middle_outleft {margin:0 0 0 256px;}
+#middle_outright {margin:0 256px 0 0;}
+#middle {}
+#content_out {}
+#content {padding:0 4px;}
+#userwrapper_out {margin:24px 0;}
+#userwrapper {}
+#user1_out3, #user2_out3, #user6_out3 {float:left;width:33.3%;}
+#user1_out2, #user2_out2, #user6_out2 {float:left;width:50%;}
+#user1_out1, #user2_out1, #user6_out1 {float:left;width:100%;}
+#user1, #user2, #user6 {padding:4px;}
+#user1 ul, #user2 ul, #user6 ul {list-style-type:none;padding:0;}
+#user1 h3, #user2 h3, #user6 h3 {text-transform:uppercase;border-bottom:2px solid #f29900;}
+#bottom_out {padding:0 32px;}
+#bottom {}
+#footerout {}
+#footer {}
+#footer ul, #footer li {list-style-type:none;display:inline;}
+#footer li a {padding:4px 4px 4px 0;}
+/* --------------------------------------------------
+Joomla
+-------------------------------------------------- */
+.componentheading {}
+.contentheading {font-size:18px;font-weight:bold;color:#f29900;margin:12px 0;}
+.inputbox {border: 2px solid #F4F4F4;padding: 2px;background:#F2F2F2;}
+.poll input.button {margin: 20px 0;}
+.button {font-size:11px;background:#FFBF00;color:#FFF;padding:4px;}
+.componentheading {height: 26px;line-height: 26px;background:#f29900;color: #FFF;font-size: 14px;padding: 0 5px;margin-bottom:10px;font-weight:bold;}
+.createdate {height: 20px;vertical-align: top;font-size: 10px;font-weight: bold;color: #444;}
+.modifydate {height: 20px;vertical-align: bottom;font-size: 10px;color: #444;}
+tr.sectiontableentry1 td, td.sectiontableentry1 {padding:5px;border-bottom:1px solid #F2F2F2;}
+tr.sectiontableentry2 td, td.sectiontableentry2 {padding:5px;border-bottom:1px solid #F2F2F2;}
+#form-login-username, #form-login-password {margin:2px;}
+table.contentpaneopen {width: 100%;}
+table.contenttoc {margin-left:10px;margin-bottom:5px;width:180px;float:right;border-left:1px solid #E2E2E2;padding:5px 5px 10px 10px;}
+table.contenttoc th {padding:2px 0;font-weight:bold;font-size:13px;margin-top:2px;border-bottom:1px solid #E2E2E2;text-align:left;}
+.pagenav {border:1px solid #E2E2E2;padding:2px 4px;}

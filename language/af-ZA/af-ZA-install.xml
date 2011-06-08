@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="language" version="1.5" client="site" method="upgrade">
+  <name>Afrikaans</name>
+  <tag>af-ZA</tag>
+  <version>1.5.9.1</version>
+  <creationDate>"06 Mar 2009"</creationDate>
+  <author>Joomla! Afrikaans</author>
+  <authorEmail>webmaster@joomla4africa.org</authorEmail>
+  <copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <description><![CDATA[
+  <div align="center">
+  <table border="0" width="90%">
+    <tr>
+        <td width="100%" colspan="2">
+        <div align="center">
+        <img border="0" src="http://afrikaans.joomla4africa.org/images/stories/afrikaans.gif" alt="Afrikaans" />
+        </div>
+        <hr />
+        </td>
+    </tr>
+    <tr>
+        <td width="18%"><u><b>Taal:</b></u></td>
+        <td width="80%">Afrikaanse Taalpakket in die vertroulike aanspreeksvorm</td>
+    </tr>
+    <tr>
+        <td width="18%"><u><b>Skema:</b></u></td>
+        <td width="80%">site</td>
+    </tr>
+    <tr>
+        <td width="18%"><u><b>Outeur:</b></u></td>
+        <td width="80%"><a mailto="webmaster@joomla4africa.org">Joomla! Afrikaans</a></td>
+    </tr>
+    <tr>
+        <td width="18%"><u><b>Webwerf:</b></u></td>
+        <td width="80%"><a target="_blank" href="http://afrikaans.joomla4africa.org">http://afrikaans.joomla4africa.org</a></td>
+    </tr>
+    <tr>
+        <td width="18%"><u><b>Vertaling Hersiening:</b></u></td>
+        <td width="80%">1.5.9.1</td>
+    </tr>
+    <tr>
+        <td width="100%" colspan="2">
+        <p><b><font color="#008000">Kyk asb. gereeld op die projek webwerf dat jy die mees onlangse vertaling het.</font></b>
+    </td>
+    </tr>
+  </table>
+  </div>
+  ]]>
+  </description>
+  <files>
+    <file file="meta">af-ZA.xml</file>
+    <file>af-ZA.com_banners.ini</file>
+    <file>af-ZA.com_contact.ini</file>
+    <file>af-ZA.com_content.ini</file>
+    <file>af-ZA.com_frontpage.ini</file>
+    <file>af-ZA.com_mailto.ini</file>
+    <file>af-ZA.com_media.ini</file>
+    <file>af-ZA.com_messages.ini</file>
+    <file>af-ZA.com_newsfeeds.ini</file>
+    <file>af-ZA.com_poll.ini</file>
+    <file>af-ZA.com_search.ini</file>
+    <file>af-ZA.com_user.ini</file>
+    <file>af-ZA.com_weblinks.ini</file>
+    <file>af-ZA.com_wrapper.ini</file>
+    <file>af-ZA.ini</file>
+    <file>af-ZA.mod_archive.ini</file>
+    <file>af-ZA.mod_banners.ini</file>
+    <file>af-ZA.mod_breadcrumbs.ini</file>
+    <file>af-ZA.mod_custom.ini</file>
+    <file>af-ZA.mod_feed.ini</file>
+    <file>af-ZA.mod_footer.ini</file>
+    <file>af-ZA.mod_latestnews.ini</file>
+    <file>af-ZA.mod_login.ini</file>
+    <file>af-ZA.mod_mainmenu.ini</file>
+    <file>af-ZA.mod_mostread.ini</file>
+    <file>af-ZA.mod_newsflash.ini</file>
+    <file>af-ZA.mod_online.ini</file>
+    <file>af-ZA.mod_poll.ini</file>
+    <file>af-ZA.mod_random_image.ini</file>
+    <file>af-ZA.mod_related_items.ini</file>
+    <file>af-ZA.mod_search.ini</file>
+    <file>af-ZA.mod_sections.ini</file>
+    <file>af-ZA.mod_stats.ini</file>
+    <file>af-ZA.mod_syndicate.ini</file>
+    <file>af-ZA.mod_whosonline.ini</file>
+    <file>af-ZA.mod_wrapper.ini</file>
+    <file>af-ZA.plg_content_vote.ini</file>
+    <file>af-ZA.plg_search_categories.ini</file>
+    <file>af-ZA.plg_search_contacts.ini</file>
+    <file>af-ZA.plg_search_content.ini</file>
+    <file>af-ZA.plg_search_newsfeeds.ini</file>
+    <file>af-ZA.plg_search_sections.ini</file>
+    <file>af-ZA.plg_search_weblinks.ini</file>
+    <file>af-ZA.plg_system_debug.ini</file>
+    <file>af-ZA.tpl_beez.ini</file>
+    <file>af-ZA.tpl_ja_purity.ini</file>
+    <file>af-ZA.tpl_rhuk_milkyway.ini</file>
+    <file>af-ZA-install.xml</file>
+    <file>index.html</file>
+  </files>
+</install>

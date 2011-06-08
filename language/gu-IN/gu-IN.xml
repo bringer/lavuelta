@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5"  client="site" >
+	<tag>gu-IN</tag>
+	<name>Gujarati</name>
+	<description>Gujarati language site pack for Joomla</description>
+	<version>1.5.15</version>
+	<creationDate>2009-10-27</creationDate>
+	<author>Gujarati Translation Team</author>
+	<authorUrl>www.gujaratijoomla.com</authorUrl>
+	<authorEmail>ronakbhagdev@gmail.com</authorEmail>
+	<copyright>Translation 2009 Gujarati Translation Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<metadata>
+		<name>Gujarati</name>
+		<tag>gu-IN</tag>
+		<rtl>0</rtl>
+		<locale>gu_IN.utf8, gu_IN.UTF-8, gu_IN, guj_IN, gu, gujarati, gujarati-india, india, ind</locale>
+		<winCodePage>utf-8</winCodePage>
+		<backwardLang>gujarati</backwardLang>
+		<pdfFontName>freesans</pdfFontName>
+	</metadata>
+	<params></params>
+</metafile>

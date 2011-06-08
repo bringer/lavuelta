@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>CloudBase</name>
+	<version>1.0.12</version>
+	<creationDate>21 Fabruary 2011</creationDate>
+	<author>CloudAccess.net</author>
+	<authorEmail>sales@cloudaccess.net</authorEmail>
+	<authorUrl>http://www.cloudaccess.net</authorUrl>
+	<copyright>cloudaccess.net</copyright>
+	<license>GNU/GPL version 2</license>
+	<description>
+			<![CDATA[
+			<p>
+				<img src="../templates/cloudbase/images/beckend/cloudbaseByCloudAccess.png" target="_blank" alt="Base Template" />
+			</p>
+			<p>
+				Template created by:
+			</p>
+			<p>
+				<a href="http://www.cloudaccess.net"><img src="../templates/cloudbase/images/beckend/hosting.jpg" alt="CloudAccess.net - The Ultimate Joomla! Hosting" /></a>
+			</p>
+			<p>Base template, Running on powerful T3 framework, with enhanced features and capabilities.</p><p>Features:</p>
+			<ul>
+				<li><span style="font-weight: bold;">Native Iphone &amp; Handheld support &amp; optimized</span> </li>
+				<li><span style="font-weight: bold;">SEO Utimate - Content fist , content on the top </span></li>
+				<li><span style="font-weight: bold;">Multiple Menu Types support. Including New JA Mega Menu</span> </li>
+				<li><span style="font-weight: bold;">Supports multiple Layout options, configured within seconds from backend. </span></li>
+				<li><span style="font-weight: bold;">Options to create overrides and custom layouts </span></li>
+				<li><span style="font-weight: bold;">CSS Sprites usage for Typography styles, performance booster.</span></li>
+				<li><span style="font-weight: bold;">Right to Left language support<br /></span></li>
+			</ul>
+			<p></p>
+			<p><span style="color: #004EA3;"><strong>Module Class Suffixes for Color</strong> : </span>
+			</p>
+			<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/greenModule.jpg" /></td><td><img src="../templates/cloudbase/images/beckend/blueModule.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>_green</strong></td><td><strong>_blue</strong></td></tr><tr><td><img src="../templates/cloudbase/images/beckend/redModule.jpg" />
+					</td>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/brownModule.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>_red</strong>
+					</td>
+					<td>
+						<strong>_brown</strong></td></tr><tr><td><img src="../templates/cloudbase/images/beckend/orangeModule.jpg" />
+					</td>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/purpleModule.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>_orange</strong>
+					</td>
+					<td>
+						<strong>_purple</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/greyModule.jpg" />
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>_grey</strong>
+					</td>
+					<td>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<p><span style="color: #ff6600;"><strong><span style="color: #004EA3;">Module Class Suffixes for Badges</span></strong> :</span></p>
+			<table border="0" style="width: 100%;">
+			<tbody>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/badgeHot.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/badgeNew.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td >
+						<img src="../templates/cloudbase/images/beckend/badgePick.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/badgeTop.jpg" />
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<p><span style="color: #004EA3;"><strong>Mix both the module suffixes (color and style) together to have additional styles.</strong></span></p>
+			<table border="0">
+			<tbody>
+				<tr>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/greenBadgeNew.jpg" />
+					</td>
+					<td>
+						<img src="../templates/cloudbase/images/beckend/redBadgePick.jpg" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong>_green _badge badge-new</strong>
+					</td>
+					<td>
+						<strong>_red _badge badge-pick</strong>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<p><span style="color: #004EA3;"><strong>Module map:</strong></span></p>
+			<p><img src="../templates/cloudbase/images/beckend/module_map.jpg" /></p>			
+			]]>  	
+    </description>
+
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>element</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>layouts</folder>
+		<folder>libs</folder>	
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.tpl_cloudbase.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_cloudbase.ini</language>
+		</languages>
+    </administration>
+
+	<positions>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>left_top</position>
+		<position>left</position>
+		<position>left2</position>
+		<position>left_bottom</position>
+		<position>right_top</position>
+		<position>right</position>
+		<position>right2</position>
+		<position>right_bottom</position>
+		<position>top</position>
+		<position>bottom</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+		<position>showcase</position>
+		<position>adv_top</position>
+		<position>adv_bottom</position>
+		<position>inset</position>
+		<position>inset2</position>
+	</positions>
+
+	<params addpath="/templates/cloudbase/element">
+		<param name="@group" type="japaramhelper" value="logoType|colorVariation|rightCollapsible|ja_screen|ja_menu|footerLogos|fontResizer|backgroundType"  hiderow="true" /> 
+		
+		<param name="@title" type="japaramhelper" label="Template Logo" description="TEMPLATE LOGO DESC" />
+		<param type="createfolder" />
+		<param name="logoPosition" type="list" default="left" label="Logo Position" description="LOGO POSITION DESCRIPTION" >
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="logoType" type="list" default="image" label="Logo type" description="LOGO TYPE DESCRIPTION">
+			<option value="image">Image</option>
+			<option value="text">Text</option>
+		</param>
+		<param name="logoType-text-logoText" type="text" default="" size="50" label="Logo text" description="LOGO TEXT DESCRIPTION" />
+		<param name="logoType-text-sloganText" type="text" default="" size="50" label="Slogan" description="SLOGAN DESCRIPTION" />
+		
+		<param name="logoType-image-path" type="filelist" label="Logo image" description="LOGO IMAGE DESCRIPTION" directory="/images/logo" filter="" exclude="" stripext="" />
+		
+		<param name="@title" type="japaramhelper" label="Color Variation" description="COLOR VARIATION DESCRIPTION" />
+		<param name="ca_colorVariation" type="list" default="grey" label="Color variation" description="COLOR VARIATION DESCRIPTION 2">
+			<option value="blue">Blue</option>
+			<option value="brown">Brown</option>
+			<option value="green">Green </option>
+			<option value="grey">Grey</option>
+			<option value="orange">Orange</option>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="white">White</option>
+		</param>
+		
+		<param name="backgroundType" type="list" default="build" label="Background Type" description="BACKGROUND TYPE DESCRIPTION">
+			<option value="built">Built in Color Variation</option>
+			<option value="custom">Custom background color</option>
+		</param>
+		<param name="backgroundType-custom-backgroundColor" type="color" default="#" label="Background Color" description="BACKGROUND COLOR DESCRIPTION" > </param> 
+
+		<param name="@title" type="japaramhelper" label="Template Font Size" description="Template Font Size Desc" />
+		<param name="ja_font" type="list" default="3" label="Font size" description="FONT SIZE DESCRIPTION">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</param>
+		
+		<param name="@title" type="japaramhelper" label="Template_Width" description="Template_Width Desc" />
+		<param name="ja_screen" type="list" default="950" label="Template Width" description="TEMPLATE WIDTH DESCRIPTION">
+			<option value="auto">AUTO</option>
+			<option value="750">Narrow Screen</option>
+			<option value="950">Wide Screen</option>
+			<option value="fluid">SPECIFIED PERCENTAGE</option>
+			<option value="fix">SPECIFIED PIXEL</option>
+		</param>
+		<param name="ja_screen-fluid-fix-ja_screen_width" type="text" default="" label="Specified width" description="SPECIFIED WIDTH DESCRIPTION" />
+		
+		<param name="@title" type="japaramhelper" label="Menu System" description="Menu System Desc" />
+		<param name="menutype" type="menu" default="mainmenu" label="Menu Module" description="Menu Module Desc" />
+		<param name="ja_menu" type="list" default="css" label="Menu Type" description="Menu Type Desc">
+		  <option value="split">Split Menu</option>
+		  <option value="css">CSS Menu</option>
+		  <option value="moo">Moo Menu</option>
+		  <option value="dropline">Dropline Menu</option>
+		  <option value="mega">Mega Menu</option>
+		</param>
+		<param name="startlevel" type="text" default="0" label="Start Level" description="Start Level Desc" />
+		<param name="endlevel" type="text" default="-1" label="End Level" description="End Level Desc" />
+		<param name="page_menus" type="textarea" cols="50" rows="8" default="" label="Customize menu for page" description="Customize menu for page desc" />
+		<param name="ja_menu-mega-animation" type="list" default="slide" label="Animation Type" description="Animation Type Desc">
+		  <option value="none">None</option>
+		  <option value="slide">Slide</option>
+		  <option value="fade">Fade</option>
+		  <option value="slide_fade">Slide &amp; Fade</option>
+		</param>
+		<param name="ja_menu-mega-duration" type="text" default="300" label="Animation duration" description="Animation duration Desc" />
+		
+		<param name="@title" type="japaramhelper" label="Layout" description="Layout Desc" />
+		<param name="main_layout" type="filelist" directory="templates/cloudbase/layouts" stripext="true" default="" label="Default Layout" description="Default Layout Desc" />
+		<param name="page_layouts" type="textarea" cols="50" rows="8" default="" label="Page layouts overwrite" description="Page layouts overwrite desc" />	
+		
+		
+		<param name="iphone_layout" type="filelist" directory="templates/cloudbase/layouts" stripext="true" default="" label="Iphone" description="Iphone Desc" />
+		
+		<param name="other_handheld_layout" type="filelist" directory="templates/cloudbase/layouts" stripext="true" default="" label="Other Handheld devices" description="Other Handheld devices Desc" />
+		
+		<param name="@title" type="japaramhelper" label="Template Tools" description="TEMPLATE TOOLS DESCRIPTION" />
+		<param name="fontResizer" type="radio" default="1" label="Font Resizer" description="FONT RESIZER DESCRIPTION">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="@title" type="japaramhelper" label="Footer Logos" description="FOOTER LOGOS DESCRIPTION" />
+		<param name="footerLogos" type="radio" default="1" label="Show footer logos" description="SHOW FOOTER LOGOS DESCRIPTION">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

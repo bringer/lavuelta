@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Simpleshare</name>
+	<author>Jose Andres Martinez</author>
+	<creationDate>24/10/2008</creationDate>
+	<copyright>Copyright (C) 2008 JAMSLUG. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>jamslug@gmail.com</authorEmail>
+	<authorUrl>www.jamslug.com</authorUrl>
+	<version>0.1</version>
+	<description>A Simple Share in Facebook content plugin (Joomla 1.5.X)</description>
+	<files>
+		<filename plugin="simpleshare">simpleshare.php</filename>
+	</files>
+	<params/>
+</install>
